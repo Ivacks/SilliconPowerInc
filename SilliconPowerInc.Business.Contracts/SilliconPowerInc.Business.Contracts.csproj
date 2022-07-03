@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SilliconPowerInc.CrossCutting\SilliconPowerInc.CrossCutting.csproj" />
+    <ProjectReference Include="..\SilliconPowerInc.Dtos\SilliconPowerInc.Dtos.csproj" />
+    <ProjectReference Include="..\SilliconPowerInc.Infrastructure.Contracts\SilliconPowerInc.Infrastructure.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

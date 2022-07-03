@@ -1,0 +1,388 @@
+﻿2022-07-03 18:53:39.667 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 18:53:40.521 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 18:53:40.522 +02:00 [INF] Hosting environment: Development
+2022-07-03 18:53:40.522 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 18:53:40.562 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 18:53:40.570 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-03 18:53:40.781 +02:00 [INF] Request finished in 222.4857ms 500 text/html; charset=utf-8
+2022-07-03 18:56:13.710 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 18:56:14.103 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 18:56:14.104 +02:00 [INF] Hosting environment: Development
+2022-07-03 18:56:14.104 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 18:56:14.119 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 18:56:14.157 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference 'apiVersion' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.ParameterPolicyFactory.Create(RoutePatternParameterPart parameter, RoutePatternParameterPolicyReference reference)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidate(Endpoint endpoint, Int32 score)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidates(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.<AddNode>g__Transition|26_0(DfaNode next, <>c__DisplayClass26_0& )
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.Build()
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.CreateMatcher(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at System.Threading.LazyInitializer.EnsureInitialized[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-03 18:56:14.240 +02:00 [INF] Request finished in 123.171ms 500 text/html; charset=utf-8
+2022-07-03 18:57:31.770 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 18:57:32.202 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 18:57:32.202 +02:00 [INF] Hosting environment: Development
+2022-07-03 18:57:32.202 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 18:57:32.221 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 18:57:32.270 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference 'apiVersion' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.ParameterPolicyFactory.Create(RoutePatternParameterPart parameter, RoutePatternParameterPolicyReference reference)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidate(Endpoint endpoint, Int32 score)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidates(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.<AddNode>g__Transition|26_0(DfaNode next, <>c__DisplayClass26_0& )
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.Build()
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.CreateMatcher(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at System.Threading.LazyInitializer.EnsureInitialized[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-03 18:57:32.356 +02:00 [INF] Request finished in 138.8674ms 500 text/html; charset=utf-8
+2022-07-03 18:58:14.652 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 18:58:15.033 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 18:58:15.034 +02:00 [INF] Hosting environment: Development
+2022-07-03 18:58:15.034 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 18:58:15.050 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 18:58:15.084 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference 'apiVersion' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.ParameterPolicyFactory.Create(RoutePatternParameterPart parameter, RoutePatternParameterPolicyReference reference)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidate(Endpoint endpoint, Int32 score)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidates(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.<AddNode>g__Transition|26_0(DfaNode next, <>c__DisplayClass26_0& )
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.Build()
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.CreateMatcher(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at System.Threading.LazyInitializer.EnsureInitialized[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-03 18:58:15.164 +02:00 [INF] Request finished in 117.9988ms 500 text/html; charset=utf-8
+2022-07-03 19:02:15.746 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 19:02:16.124 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 19:02:16.124 +02:00 [INF] Hosting environment: Development
+2022-07-03 19:02:16.125 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 19:02:16.141 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:02:16.177 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference 'apiVersion' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.ParameterPolicyFactory.Create(RoutePatternParameterPart parameter, RoutePatternParameterPolicyReference reference)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidate(Endpoint endpoint, Int32 score)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidates(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.<AddNode>g__Transition|26_0(DfaNode next, <>c__DisplayClass26_0& )
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.Build()
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.CreateMatcher(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at System.Threading.LazyInitializer.EnsureInitialized[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-03 19:02:16.262 +02:00 [INF] Request finished in 123.4095ms 500 text/html; charset=utf-8
+2022-07-03 19:02:20.903 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/swagger  
+2022-07-03 19:02:20.910 +02:00 [INF] Request finished in 3.9176ms 301 
+2022-07-03 19:02:20.914 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/swagger/index.html  
+2022-07-03 19:02:20.946 +02:00 [INF] Request finished in 31.6865ms 200 text/html;charset=utf-8
+2022-07-03 19:02:20.957 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/swagger/swagger-ui.css  
+2022-07-03 19:02:20.957 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/swagger/swagger-ui-bundle.js  
+2022-07-03 19:02:20.958 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/swagger/swagger-ui-standalone-preset.js  
+2022-07-03 19:02:20.994 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-07-03 19:02:20.994 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-07-03 19:02:20.994 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-07-03 19:02:20.996 +02:00 [INF] Request finished in 37.7646ms 200 application/javascript
+2022-07-03 19:02:20.996 +02:00 [INF] Request finished in 38.923ms 200 text/css
+2022-07-03 19:02:20.996 +02:00 [INF] Request finished in 38.6397ms 200 application/javascript
+2022-07-03 19:02:21.204 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/swagger/v1/swagger.json  
+2022-07-03 19:02:21.225 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/v{version}/User" for actions - SilliconPowerInc.Controllers.UserController.PostUser (SilliconPowerInc),SilliconPowerInc.Controllers.UserController.OnPost (SilliconPowerInc). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-03 19:02:21.228 +02:00 [INF] Request finished in 23.9322ms 500 text/plain
+2022-07-03 19:02:21.238 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/swagger/favicon-32x32.png  
+2022-07-03 19:02:21.239 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-07-03 19:02:21.239 +02:00 [INF] Request finished in 0.8931ms 200 image/png
+2022-07-03 19:02:48.404 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 19:02:48.786 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 19:02:48.787 +02:00 [INF] Hosting environment: Development
+2022-07-03 19:02:48.787 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 19:02:48.803 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:02:48.851 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-03 19:02:48.927 +02:00 [INF] Request finished in 127.7566ms 500 text/html; charset=utf-8
+2022-07-03 19:03:44.287 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 19:03:44.664 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 19:03:44.664 +02:00 [INF] Hosting environment: Development
+2022-07-03 19:03:44.664 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 19:03:44.680 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:03:44.721 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-03 19:03:44.800 +02:00 [INF] Request finished in 123.3379ms 500 text/html; charset=utf-8
+2022-07-03 19:03:57.186 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/swagger/index.html  
+2022-07-03 19:03:57.216 +02:00 [INF] Request finished in 31.1122ms 200 text/html;charset=utf-8
+2022-07-03 19:03:57.472 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/swagger/v1/swagger.json  
+2022-07-03 19:03:57.494 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/User" for actions - SilliconPowerInc.Controllers.UserController.PostUser (SilliconPowerInc),SilliconPowerInc.Controllers.UserController.OnPost (SilliconPowerInc). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-03 19:03:57.498 +02:00 [INF] Request finished in 25.9472ms 500 text/plain
+2022-07-03 19:08:16.247 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 19:08:16.637 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 19:08:16.637 +02:00 [INF] Hosting environment: Development
+2022-07-03 19:08:16.637 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 19:08:16.656 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:08:16.699 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-03 19:08:16.780 +02:00 [INF] Request finished in 127.7247ms 500 text/html; charset=utf-8
+2022-07-03 19:13:19.099 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 19:13:19.484 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 19:13:19.484 +02:00 [INF] Hosting environment: Development
+2022-07-03 19:13:19.484 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 19:13:19.499 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:13:19.528 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-03 19:13:19.604 +02:00 [INF] Request finished in 103.7324ms 500 text/html; charset=utf-8
+2022-07-03 19:17:06.094 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 19:17:06.496 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 19:17:06.496 +02:00 [INF] Hosting environment: Development
+2022-07-03 19:17:06.496 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 19:17:06.513 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:17:06.553 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-03 19:17:06.636 +02:00 [INF] Request finished in 127.0577ms 500 text/html; charset=utf-8
+2022-07-03 19:19:37.977 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 19:20:02.895 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 19:20:03.308 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 19:20:03.308 +02:00 [INF] Hosting environment: Development
+2022-07-03 19:20:03.308 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 19:20:03.324 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:20:03.359 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-03 19:20:03.447 +02:00 [INF] Request finished in 125.6498ms 500 text/html; charset=utf-8
+2022-07-03 19:20:31.060 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 19:20:31.468 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 19:20:31.469 +02:00 [INF] Hosting environment: Development
+2022-07-03 19:20:31.469 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 19:20:31.492 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:20:31.538 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-03 19:20:31.629 +02:00 [INF] Request finished in 142.4046ms 500 text/html; charset=utf-8
+2022-07-03 19:21:50.082 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 19:21:50.467 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 19:21:50.467 +02:00 [INF] Hosting environment: Development
+2022-07-03 19:21:50.467 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 19:21:50.482 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:21:50.518 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-03 19:21:50.596 +02:00 [INF] Request finished in 116.5645ms 500 text/html; charset=utf-8
+2022-07-03 19:23:41.887 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 19:23:42.265 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 19:23:42.265 +02:00 [INF] Hosting environment: Development
+2022-07-03 19:23:42.265 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 19:23:42.282 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:23:42.318 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-03 19:23:42.395 +02:00 [INF] Request finished in 116.7032ms 500 text/html; charset=utf-8
+2022-07-03 19:24:14.684 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 19:24:15.068 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 19:24:15.069 +02:00 [INF] Hosting environment: Development
+2022-07-03 19:24:15.069 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 19:24:15.085 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:24:15.121 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-03 19:24:15.200 +02:00 [INF] Request finished in 117.7553ms 500 text/html; charset=utf-8
+2022-07-03 19:24:34.218 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 19:24:34.600 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 19:24:34.601 +02:00 [INF] Hosting environment: Development
+2022-07-03 19:24:34.601 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 19:24:34.617 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:24:34.670 +02:00 [INF] Request finished in 56.4346ms 404 
+2022-07-03 19:24:47.016 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/swagger/index.html  
+2022-07-03 19:24:47.047 +02:00 [INF] Request finished in 32.1853ms 200 text/html;charset=utf-8
+2022-07-03 19:24:47.171 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/swagger/v1/swagger.json  
+2022-07-03 19:24:47.201 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/User" for actions - SilliconPowerInc.Controllers.UserController.PostUser (SilliconPowerInc),SilliconPowerInc.Controllers.UserController.OnPost (SilliconPowerInc). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-03 19:24:47.254 +02:00 [INF] Request finished in 83.174ms 500 text/plain
+2022-07-03 19:39:39.770 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 19:39:46.504 +02:00 [FTL] Application startup exception
+System.InvalidOperationException: EndpointRoutingMiddleware matches endpoints setup by EndpointMiddleware and so must be added to the request execution pipeline before EndpointMiddleware. Please add EndpointRoutingMiddleware by calling 'IApplicationBuilder.UseRouting' inside the call to 'Configure(...)' in the application startup code.
+   at Microsoft.AspNetCore.Builder.EndpointRoutingApplicationBuilderExtensions.VerifyEndpointRoutingMiddlewareIsRegistered(IApplicationBuilder app, DefaultEndpointRouteBuilder& endpointRouteBuilder)
+   at Microsoft.AspNetCore.Builder.EndpointRoutingApplicationBuilderExtensions.UseEndpoints(IApplicationBuilder builder, Action`1 configure)
+   at SilliconPowerInc.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env) in C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc\Startup.cs:line 63
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISServerSetupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2022-07-03 19:40:03.789 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 19:40:03.982 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 19:40:03.982 +02:00 [INF] Hosting environment: Development
+2022-07-03 19:40:03.985 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 19:40:04.012 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:40:04.087 +02:00 [INF] Request finished in 78.4844ms 404 
+2022-07-03 19:40:25.486 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/index  
+2022-07-03 19:40:25.494 +02:00 [INF] Request finished in 6.8872ms 404 
+2022-07-03 19:40:27.713 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/index  
+2022-07-03 19:40:27.716 +02:00 [INF] Request finished in 3.5605ms 404 
+2022-07-03 19:41:54.397 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 19:41:54.592 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 19:41:54.592 +02:00 [INF] Hosting environment: Development
+2022-07-03 19:41:54.595 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 19:41:54.625 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:41:54.696 +02:00 [INF] Request finished in 73.7086ms 404 
+2022-07-03 19:42:08.054 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:7540/  
+2022-07-03 19:42:08.068 +02:00 [INF] Request finished in 13.2071ms 307 
+2022-07-03 19:42:08.071 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:42:08.073 +02:00 [INF] Request finished in 1.4844ms 404 
+2022-07-03 19:42:09.705 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:42:09.711 +02:00 [INF] Request finished in 3.1562ms 404 
+2022-07-03 19:42:18.468 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/swagger/index.html  
+2022-07-03 19:42:18.502 +02:00 [INF] Request finished in 33.811ms 200 text/html;charset=utf-8
+2022-07-03 19:42:18.629 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/swagger/v1/swagger.json  
+2022-07-03 19:42:18.728 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/User" for actions - SilliconPowerInc.Controllers.UserController.PostUser (SilliconPowerInc),SilliconPowerInc.Controllers.UserController.OnPost (SilliconPowerInc). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-03 19:42:18.763 +02:00 [INF] Request finished in 134.2137ms 500 text/plain
+2022-07-03 19:43:16.591 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 19:43:16.782 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 19:43:16.782 +02:00 [INF] Hosting environment: Development
+2022-07-03 19:43:16.782 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 19:43:16.812 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:43:16.882 +02:00 [INF] Request finished in 71.5321ms 404 
+2022-07-03 19:43:18.593 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:43:18.599 +02:00 [INF] Request finished in 6.3351ms 404 
+2022-07-03 19:43:19.161 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:43:19.163 +02:00 [INF] Request finished in 2.807ms 404 
+2022-07-03 19:43:19.351 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:43:19.353 +02:00 [INF] Request finished in 2.4426ms 404 
+2022-07-03 19:43:19.539 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:43:19.541 +02:00 [INF] Request finished in 1.922ms 404 
+2022-07-03 19:43:19.712 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:43:19.713 +02:00 [INF] Request finished in 1.1685ms 404 

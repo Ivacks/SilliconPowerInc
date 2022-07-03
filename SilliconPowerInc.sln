@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SilliconPowerInc", "SilliconPowerInc\SilliconPowerInc.csproj", "{E2BC5637-88D5-48F3-A178-DA44C7998DC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.User", "01.User", "{FF0CFF97-2E23-4A02-9F26-F0889EC96AB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Business", "02.Business", "{06D7FCF9-14F8-4A23-96B8-819DDD1EE756}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Infrastructure", "03.Infrastructure", "{30574156-816F-41DC-A367-53C6373C0001}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Dtos", "04.Dtos", "{FDAD1602-E060-4858-BBF5-A4736691D491}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.CrossCutting", "05.CrossCutting", "{9336F7E8-7C3D-4D57-9B44-53FFBEE6DF7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SilliconPowerInc.CrossCutting", "SilliconPowerInc.CrossCutting\SilliconPowerInc.CrossCutting.csproj", "{6120B536-363D-4282-AF5D-9C38CF9DB676}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SilliconPowerInc.Infrastructure.Contracts", "SilliconPowerInc.Infrastructure.Contracts\SilliconPowerInc.Infrastructure.Contracts.csproj", "{9B9092F2-4D05-4E75-BF32-C3F85104746C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SilliconPowerInc.Infrastructure.Impl", "SilliconPowerInc.Infrastructure.Impl\SilliconPowerInc.Infrastructure.Impl.csproj", "{145E5BE5-FF90-4D55-9485-8F8CCD13BDC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SilliconPowerInc.Business.Contracts", "SilliconPowerInc.Business.Contracts\SilliconPowerInc.Business.Contracts.csproj", "{418DFAD1-4CB5-4C01-9BBB-596EAAD92F3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SilliconPowerInc.Dtos", "SilliconPowerInc.Dtos\SilliconPowerInc.Dtos.csproj", "{412CBFA5-43C5-48B9-9D7A-1529552171BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SilliconPowerInc.Business.Impl", "SilliconPowerInc.Business.Impl\SilliconPowerInc.Business.Impl.csproj", "{C89C0FB6-A740-48CF-A34C-957CB1340C91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2BC5637-88D5-48F3-A178-DA44C7998DC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2BC5637-88D5-48F3-A178-DA44C7998DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2BC5637-88D5-48F3-A178-DA44C7998DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2BC5637-88D5-48F3-A178-DA44C7998DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6120B536-363D-4282-AF5D-9C38CF9DB676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6120B536-363D-4282-AF5D-9C38CF9DB676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6120B536-363D-4282-AF5D-9C38CF9DB676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6120B536-363D-4282-AF5D-9C38CF9DB676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B9092F2-4D05-4E75-BF32-C3F85104746C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B9092F2-4D05-4E75-BF32-C3F85104746C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B9092F2-4D05-4E75-BF32-C3F85104746C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B9092F2-4D05-4E75-BF32-C3F85104746C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{145E5BE5-FF90-4D55-9485-8F8CCD13BDC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{145E5BE5-FF90-4D55-9485-8F8CCD13BDC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{145E5BE5-FF90-4D55-9485-8F8CCD13BDC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{145E5BE5-FF90-4D55-9485-8F8CCD13BDC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{418DFAD1-4CB5-4C01-9BBB-596EAAD92F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{418DFAD1-4CB5-4C01-9BBB-596EAAD92F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{418DFAD1-4CB5-4C01-9BBB-596EAAD92F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{418DFAD1-4CB5-4C01-9BBB-596EAAD92F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{412CBFA5-43C5-48B9-9D7A-1529552171BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{412CBFA5-43C5-48B9-9D7A-1529552171BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{412CBFA5-43C5-48B9-9D7A-1529552171BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{412CBFA5-43C5-48B9-9D7A-1529552171BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C89C0FB6-A740-48CF-A34C-957CB1340C91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C89C0FB6-A740-48CF-A34C-957CB1340C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C89C0FB6-A740-48CF-A34C-957CB1340C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C89C0FB6-A740-48CF-A34C-957CB1340C91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2BC5637-88D5-48F3-A178-DA44C7998DC4} = {FF0CFF97-2E23-4A02-9F26-F0889EC96AB9}
+		{6120B536-363D-4282-AF5D-9C38CF9DB676} = {9336F7E8-7C3D-4D57-9B44-53FFBEE6DF7B}
+		{9B9092F2-4D05-4E75-BF32-C3F85104746C} = {30574156-816F-41DC-A367-53C6373C0001}
+		{145E5BE5-FF90-4D55-9485-8F8CCD13BDC7} = {30574156-816F-41DC-A367-53C6373C0001}
+		{418DFAD1-4CB5-4C01-9BBB-596EAAD92F3B} = {06D7FCF9-14F8-4A23-96B8-819DDD1EE756}
+		{412CBFA5-43C5-48B9-9D7A-1529552171BF} = {FDAD1602-E060-4858-BBF5-A4736691D491}
+		{C89C0FB6-A740-48CF-A34C-957CB1340C91} = {06D7FCF9-14F8-4A23-96B8-819DDD1EE756}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2E43994-47CE-4A8B-9B15-7AC7AECC34B1}
+	EndGlobalSection
+EndGlobal
