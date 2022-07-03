@@ -386,3 +386,85 @@ Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/
 2022-07-03 19:43:19.541 +02:00 [INF] Request finished in 1.922ms 404 
 2022-07-03 19:43:19.712 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
 2022-07-03 19:43:19.713 +02:00 [INF] Request finished in 1.1685ms 404 
+2022-07-03 19:46:51.738 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 19:46:52.174 +02:00 [INF] Now listening on: https://localhost:5001
+2022-07-03 19:46:52.176 +02:00 [INF] Now listening on: http://localhost:5000
+2022-07-03 19:46:52.177 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 19:46:52.179 +02:00 [INF] Hosting environment: Development
+2022-07-03 19:46:52.179 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 19:46:53.121 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2022-07-03 19:46:53.195 +02:00 [INF] Request finished in 79.0632ms 404 
+2022-07-03 19:46:57.438 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2022-07-03 19:46:57.440 +02:00 [INF] Request finished in 2.573ms 404 
+2022-07-03 19:47:02.726 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger  
+2022-07-03 19:47:02.731 +02:00 [INF] Request finished in 4.7185ms 301 
+2022-07-03 19:47:02.736 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2022-07-03 19:47:02.764 +02:00 [INF] Request finished in 27.9166ms 200 text/html;charset=utf-8
+2022-07-03 19:47:02.789 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2022-07-03 19:47:02.789 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2022-07-03 19:47:02.789 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2022-07-03 19:47:02.822 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-07-03 19:47:02.824 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-07-03 19:47:02.825 +02:00 [INF] Request finished in 35.7909ms 200 text/css
+2022-07-03 19:47:02.830 +02:00 [INF] Request finished in 41.1391ms 200 application/javascript
+2022-07-03 19:47:02.830 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-07-03 19:47:02.832 +02:00 [INF] Request finished in 43.718ms 200 application/javascript
+2022-07-03 19:47:03.020 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2022-07-03 19:47:03.062 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png  
+2022-07-03 19:47:03.064 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-07-03 19:47:03.065 +02:00 [INF] Request finished in 2.9116ms 200 image/png
+2022-07-03 19:47:03.122 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/User" for actions - SilliconPowerInc.Controllers.UserController.PostUser (SilliconPowerInc),SilliconPowerInc.Controllers.UserController.OnPost (SilliconPowerInc). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-03 19:47:03.162 +02:00 [INF] Request finished in 142.154ms 500 text/plain
+2022-07-03 19:50:50.555 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 19:50:50.775 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 19:50:50.778 +02:00 [INF] Hosting environment: Development
+2022-07-03 19:50:50.778 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 19:50:50.804 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:50:50.880 +02:00 [INF] Request finished in 77.4308ms 404 
+2022-07-03 19:50:53.843 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:50:53.849 +02:00 [INF] Request finished in 6.9615ms 404 
+2022-07-03 19:50:58.764 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/swagger/index.html  
+2022-07-03 19:50:58.803 +02:00 [INF] Request finished in 38.9311ms 200 text/html;charset=utf-8
+2022-07-03 19:50:58.936 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/swagger/v1/swagger.json  
+2022-07-03 19:50:59.046 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/User" for actions - SilliconPowerInc.Controllers.UserController.PostUser (SilliconPowerInc),SilliconPowerInc.Controllers.UserController.OnPost (SilliconPowerInc). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-03 19:50:59.085 +02:00 [INF] Request finished in 149.1963ms 500 text/plain
+2022-07-03 19:51:05.541 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/swagger/v1/swagger.json  
+2022-07-03 19:51:05.544 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/User" for actions - SilliconPowerInc.Controllers.UserController.PostUser (SilliconPowerInc),SilliconPowerInc.Controllers.UserController.OnPost (SilliconPowerInc). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-03 19:51:05.567 +02:00 [INF] Request finished in 26.3622ms 500 text/html; charset=utf-8
+2022-07-03 19:51:05.648 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/favicon.ico  
+2022-07-03 19:51:05.653 +02:00 [INF] The file /favicon.ico was not modified
+2022-07-03 19:51:05.654 +02:00 [INF] Request finished in 5.9173ms 304 image/x-icon
+2022-07-03 19:51:59.813 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 19:52:00.006 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 19:52:00.009 +02:00 [INF] Hosting environment: Development
+2022-07-03 19:52:00.010 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 19:52:00.036 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:52:00.105 +02:00 [INF] Request finished in 72.018ms 404 
+2022-07-03 19:52:04.426 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/swagger/index.html  
+2022-07-03 19:52:04.458 +02:00 [INF] Request finished in 32.2415ms 200 text/html;charset=utf-8
+2022-07-03 19:52:04.589 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/swagger/v1/swagger.json  
+2022-07-03 19:52:04.750 +02:00 [INF] Request finished in 160.9022ms 200 application/json;charset=utf-8
+2022-07-03 19:53:01.496 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 19:53:01.697 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 19:53:01.697 +02:00 [INF] Hosting environment: Development
+2022-07-03 19:53:01.697 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 19:53:01.725 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 19:53:01.801 +02:00 [INF] Request finished in 79.3028ms 404 

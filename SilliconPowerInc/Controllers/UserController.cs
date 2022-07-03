@@ -32,7 +32,6 @@ namespace SilliconPowerInc.Controllers
         [ProducesResponseType(400)]
         [ProducesResponseType(401)]
         [ProducesResponseType(403)]
-        [Authorize(Policy = "AdminPolicy")]
         [HttpPost]
         public async Task<IActionResult> PostUser([FromBody] UserDto userDto)
         {
@@ -46,31 +45,5 @@ namespace SilliconPowerInc.Controllers
                 return Ok();
             }
         }
-
-        /// <summary>
-        /// Insert new user in the database.
-        /// </summary>
-        /// <param name="userDto">Introduce username, password, and a list of roles. </param>
-        /// <returns></returns>
-        [ProducesResponseType(200)]
-        [ProducesResponseType(400)]
-        [ProducesResponseType(401)]
-        [ProducesResponseType(403)]
-        [Authorize(Policy = "AdminPolicy")]
-        [HttpPost]
-        public async Task<IActionResult> OnPost([FromBody] UserDto userDto)
-        {
-            var operationResult = await _userService.RegisterUser(userDto, new CancellationToken());
-            if (operationResult.HasErrors)
-            {
-                return BadRequest(operationResult.Errors);
-            }
-            else
-            {
-                return Ok();
-            }
-        }
-
-
     }
 }
