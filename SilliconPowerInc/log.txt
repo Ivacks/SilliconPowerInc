@@ -468,3 +468,47 @@ Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/
 2022-07-03 19:53:01.697 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
 2022-07-03 19:53:01.725 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
 2022-07-03 19:53:01.801 +02:00 [INF] Request finished in 79.3028ms 404 
+2022-07-03 20:00:10.581 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 20:00:10.780 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 20:00:10.780 +02:00 [INF] Hosting environment: Development
+2022-07-03 20:00:10.780 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 20:00:10.808 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 20:00:10.879 +02:00 [INF] Request finished in 72.4109ms 404 
+2022-07-03 20:01:18.532 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 20:01:18.784 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 20:01:18.784 +02:00 [INF] Hosting environment: Development
+2022-07-03 20:01:18.785 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 20:01:18.813 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 20:01:18.889 +02:00 [INF] Request finished in 79.5021ms 404 
+2022-07-03 20:01:48.325 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 20:01:48.518 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 20:01:48.519 +02:00 [INF] Hosting environment: Development
+2022-07-03 20:01:48.519 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 20:01:48.550 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 20:01:48.618 +02:00 [INF] Request finished in 70.7754ms 404 
+2022-07-03 20:03:25.426 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 20:03:25.746 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 20:03:25.747 +02:00 [INF] Hosting environment: Development
+2022-07-03 20:03:25.747 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 20:03:25.819 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 20:03:25.913 +02:00 [INF] Request finished in 98.0887ms 404 
+2022-07-03 20:03:29.681 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/swagger/index.html  
+2022-07-03 20:03:29.717 +02:00 [INF] Request finished in 35.8538ms 200 text/html;charset=utf-8
+2022-07-03 20:03:29.837 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/swagger/v1/swagger.json  
+2022-07-03 20:03:29.991 +02:00 [INF] Request finished in 153.3362ms 200 application/json;charset=utf-8
+2022-07-03 20:04:03.086 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 20:04:03.281 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 20:04:03.281 +02:00 [INF] Hosting environment: Development
+2022-07-03 20:04:03.281 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 20:04:03.308 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/swagger/index.html  
+2022-07-03 20:04:03.390 +02:00 [INF] Request finished in 83.4078ms 404 
+2022-07-03 20:04:19.153 +02:00 [INF] User profile is available. Using 'C:\Users\ivann\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-03 20:04:19.352 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-03 20:04:19.353 +02:00 [INF] Hosting environment: Development
+2022-07-03 20:04:19.353 +02:00 [INF] Content root path: C:\Users\ivann\source\repos\SilliconPowerInc\SilliconPowerInc
+2022-07-03 20:04:19.383 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/  
+2022-07-03 20:04:19.460 +02:00 [INF] Request finished in 81.3857ms 404 
+2022-07-03 20:04:23.661 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/swagger/index.html  
+2022-07-03 20:04:23.696 +02:00 [INF] Request finished in 34.9302ms 200 text/html;charset=utf-8
+2022-07-03 20:04:23.824 +02:00 [INF] Request starting HTTP/2.0 GET https://localhost:44310/swagger/v1/swagger.json  
+2022-07-03 20:04:23.978 +02:00 [INF] Request finished in 154.2058ms 200 application/json;charset=utf-8
